@@ -1,0 +1,137 @@
+
+.pricing-table {
+  position: relative;
+  display: block;
+  margin: 0 5px;
+  float: left;
+  width: 100%;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 3%;
+}
+.pricing-table span {
+  display: block;
+}
+.table-head {
+  padding: 25px 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.price {
+  padding: 8px 0;
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+
+.basic {
+  border-top: 3px solid #56ca7c;
+  border-bottom: 3px solid #56ca7c;
+}
+.standard {
+  border-top: 3px solid #5f5fa7;
+  border-bottom: 3px solid #5f5fa7;
+}
+.premium {
+  border-top: 3px solid #0e83cd;
+  border-bottom: 3px solid #0e83cd;
+}
+
+.basic .table-head {
+  color: #56ca7c;
+}
+.standard .table-head {
+  color: #5f5fa7;
+}
+.premium .table-head {
+  color: #0e83cd;
+}
+
+.basic .price {
+  background: #56ca7c;
+}
+.standard .price {
+  background: #5f5fa7;
+}
+.premium .price {
+  background: #0e83cd;
+}
+.table-row {
+  padding: 10px 0;
+  font-size: 17px;
+  font-weight: 400;
+  color: #888;
+}
+.table-row:nth-child(2n) {
+  background: #eee;
+}
+.purchase {
+  padding: 35px 0;
+}
+a.buy {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  padding: 7px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  -webkit-transition: color .2s ease, background .5s ease;
+  -o-transition: color .2s ease, background .5s ease;
+  transition: color .2s ease, background .5s ease;
+  overflow: hidden;
+}
+.basic a.buy {
+  border: 2px solid #56ca7c;
+  color: #56ca7c;
+}
+.standard a.buy {
+  border: 2px solid #5f5fa7;
+  color: #5f5fa7;
+}
+.premium a.buy {
+  border: 2px solid #0e83cd;
+  color: #0e83cd;
+}
+a.buy:hover {
+  color: #ffffff;
+}
+.basic a.buy:hover {
+  background: #56ca7c;
+}
+.standard a.buy:hover {
+  background: #5f5fa7;
+}
+.premium a.buy:hover {
+  background: #0e83cd;
+}
+a.buy:after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: block;
+  z-index: -1;
+  width: 100%;
+  height: 0;
+  content: '';
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+.basic a.buy:after {
+  background: #56ca7c;
+}
+.standard a.buy:after {
+  background: #5f5fa7;
+}
+.premium a.buy:after {
+  background: #0e83cd;
+}
+a.buy:hover:after {
+  height: 100%;
+}
+

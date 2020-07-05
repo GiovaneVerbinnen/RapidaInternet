@@ -1,0 +1,255 @@
+/*=========== RESET ==========*/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300; box-sizing: border-box; font-family: 'Lato', sans-serif;}
+body {background-color: #f9f9f9;}
+a {text-decoration: none;}
+ul {list-style: none;}
+img {max-width: 100%;}
+fieldset {border: 0;}
+hr{margin-bottom: 50px}
+/*------------ PRESETS ------------*/
+.container {
+	position: relative;
+	float: left;
+
+}
+.radius{border-radius: 8px;}
+.textJust{text-align: justify;}
+.textCenter{text-align: center;}
+.imgcenter{ display: flex; justify-content: center;}
+.fundo-branco{background-color: #fff;}
+.box-shadow{box-shadow: 0px 0px 5px rgba(0,0,0,.3);}
+.left{float: left;}
+.titulo{background-color: #eeeeee; padding: 1%; color: #646464; margin: 1%; padding-left: 2%;}
+.img-center{width: 100%; margin:0%; padding: 5%; height: auto;}
+h1{font-size: 2em;}
+h2{font-size: 1.75em;}
+h3{font-size: 1.6em;}
+h4{font-size: 1.4em;}
+h5{font-size: 1.35em;}
+h6{font-size: 1.3em;}
+
+/*------------ UX-UI ------------*/
+.tela-leitura {line-height: 1.45em; font-size: 1.1em;}
+/*------------ LAYOUT-3COL ------------*/
+/*------------ LAYOUT-DESKTOP ------------*/
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{float: left; display: block;}
+/* desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}/* 4-COL */
+.col-4 {width: 33.33%;}/*3-COL */
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}/* 2-COL */
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}/* 1-COL */
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+/*------------ LAYOUT-CUSTOM ------------*/
+.pad1{padding: 1%;}
+.pad2{padding: 2%;}
+.pad3{padding: 3%;}
+.pad4{padding: 4%;}
+.pad5{padding: 5%;}
+.mar1{margin: 1%;}
+.mar2{margin: 2%;}
+.mar3{margin: 3%;}
+.mar4{margin: 4%;}
+.mar5{margin: 5%;}
+/*------------ PALETA-CORES------------*/
+.blue{background-color: #006AC6;  /*border-left: 2em solid #1B3AC4;*/ color: white;}
+.azul-safira{background-color:#0080ca; color:white;}
+.red{ background-color:#fa5252;  border-left: 2em solid #ED2121; color: #fffafa; }
+.green{ background-color:#33cd77;  border-left: 2em solid #00893B; color: #fffafa; }
+.yellow{background-color:#F7F762; border-left: 2em solid #D8D841; color: #333;}
+.white{background-color:white;}
+.c-white{background-color:#FCFEFF; border-left: 2em solid #ddd; color: #333;}
+.purple{background-color: purple; color: white;border-left: 2em solid #630463;}
+/*
+Tomato
+Orange
+DodgerBlue
+MediumSeaGreen
+Gray
+SlateBlue
+Violet
+LightGray
+
+*/
+.bg-gradient {background: linear-gradient(to right,#396afc,#2948ff);}
+/*------------ CARDS ------------*/
+.card{padding: 1em;margin-bottom:1em;border-radius: 5px; box-shadow: 0px 0px 5px rgba(0,0,0,.3); float: left; }
+.card p{padding-top: 1em; text-shadow: 1px 1px 1px rgba(0,0,0,0.5); font-size: 1.1em; }
+.card h4{font-size: 2.35em; text-shadow: 1px 1px 1px rgba(0,0,0,0.5);}
+.card i{ float: left; padding:20px;}
+/*------------ BLOG ------------*/
+article .artigo{box-shadow:0px 0px 10px rgba(0,0,0,.3); margin:0%;  padding:1%; display:block; float:left; }
+article .artigo img, .lateral img {padding: 3%;}
+article .artigo h4{width: 75%;}
+/*------------ HOME ------------*/
+.conteudo {padding: 0 1rem; text-align: justify;}
+.conteudo p {font-size: 1.25em; line-height: 1.45; width: auto;}
+.conteudo span{font-size: 1.3em; font-weight: 600;}
+
+/*------------ FOOTER ------------*/
+footer.rodape{color: white; float: left; width: 100%;  font-size: 1em; padding: 2em; background-color: #333; margin-top: 5%;}
+/*------------ PATTERNS ------------*/
+p span{
+	font-size: 1.4em; 
+	font-weight: 600;
+}
+
+.teste{
+	padding:1rem 6rem;
+	float: left;
+	width: 100%;
+}
+
+.painel{
+	width: 100%;
+	height: auto;
+	margin: 2% 0;
+}
+
+.painel img{
+	width: 100vw;
+	z-index: -1;
+
+}
+
+.center{
+	margin-left: auto; 
+	margin-right: auto;
+
+}
+
+.img-total{
+	width: 50%;
+	height: 50%;
+}
+
+h1{
+	font-weight: 600;
+	line-height: 1.45;
+	padding: 1rem;
+}
+h3{
+	font-weight: bolder;
+	line-height: 1.1;
+	padding: 0.75rem 0;
+}
+.padL1{
+	padding-left: 1rem;
+}
+/*------------ TABELAS ------------*/
+table {
+  background-color: white;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
+table th{
+	background-color: #0080ca;
+	color: white;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 1.45rem;
+}
+
+.img-res{
+   	max-width:1000px;
+    max-height:700px;
+    width: auto;
+    height: auto;
+}
+.cobertura-img{
+   	max-width:400px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+}
+
+.center{
+	display: flex;
+  	align-items: center;
+  	justify-content: center
+}
+
+
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #008CBA; color: white;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.button5 {background-color: #555555;color: white;} /* Black */
+.button {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.myButton {
+	background-color:#0080ca;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:1px 1px 7px #2f6627;
+	border :3px solid  white;
+}
+.myButton:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+.myButton:active {
+	position:relative;
+	top:2px;
+}
+.header-top ul {
+	padding:1rem;
+	font-size: 15px;
+}
+
+.header-top ul li{
+	display: inline-block;
+	line-height: 1.45rem;
+}
+.header-top .mar{
+
+	margin-right: 40px;
+}
+.header-top ul a{
+	color: white;
+}
+.date{
+	text-align: center;
+	padding: 1rem 0;
+	font-size: 15px;
+}
+
